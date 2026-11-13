@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.box {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    margin-top: 4px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+input[type="color"] {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+button {
+    margin-top: 18px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.error {
+    color: #c00000;
+}
+
+a {
+    color: inherit;
+}
